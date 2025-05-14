@@ -1,0 +1,13 @@
+{
+  "name": "ai-contract-analyser",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "cd AIContractanalyser && npm run dev",
+    "build": "cd AIContractanalyser && npm run build",
+    "start": "cd AIContractanalyser && npm run start",
+    "check": "cd AIContractanalyser && npm run check",
+    "postinstall": "cd AIContractanalyser && npm install"
+  }
+}
