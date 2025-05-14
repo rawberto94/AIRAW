@@ -1,0 +1,53 @@
+FormData created with file: KPMG EL_Pictet_MTR_v2 - Cristina 1 August.pdf application/pdf 351841
+Starting file upload mutation
+Upload response status: 200
+Upload success, received clauses: 24
+Fetching contract summary for document: 1746704339890
+Contract summary API response: 
+Response {type: "basic", url: "https://9a68511f-abe3-47a0-8901-a44e1325b1ba-00-3urcu453ova8a.janeway.replit.dev/api/contract-summa…", redirected: false, status: 200, ok: true, …}
+No summary data available for this document
+Query data cannot be undefined. Please make sure to return a value other than undefined from your query function. Affected query key: ["/api/contract-summary","1746704339890"]
+Fetching contract summary for document: 1746704339890
+Contract summary API response: 
+Response {type: "basic", url: "https://9a68511f-abe3-47a0-8901-a44e1325b1ba-00-3urcu453ova8a.janeway.replit.dev/api/contract-summa…", redirected: false, status: 200, ok: true, …}
+No summary data available for this document
+Query data cannot be undefined. Please make sure to return a value other than undefined from your query function. Affected query key: ["/api/contract-summary","1746704339890"]
+Fetching contract summary for document: 1746704339890
+Contract summary API response: 
+Response {type: "basic", url: "https://9a68511f-abe3-47a0-8901-a44e1325b1ba-00-3urcu453ova8a.janeway.replit.dev/api/contract-summa…", redirected: false, status: 200, ok: true, …}
+No summary data available for this document
+Query data cannot be undefined. Please make sure to return a value other than undefined from your query function. Affected query key: ["/api/contract-summary","1746704339890"]
+Fetching contract summary for document: 1746704339890
+Contract summary API response: 
+Response {type: "basic", url: "https://9a68511f-abe3-47a0-8901-a44e1325b1ba-00-3urcu453ova8a.janeway.replit.dev/api/contract-summa…", redirected: false, status: 200, ok: true, …}
+No summary data available for this document
+Query data cannot be undefined. Please make sure to return a value other than undefined from your query function. Affected query key: ["/api/contract-summary","1746704339890"]
+Fetching contract summary for document: 1746704339890
+Contract summary API response: 
+Response {type: "basic", url: "https://9a68511f-abe3-47a0-8901-a44e1325b1ba-00-3urcu453ova8a.janeway.replit.dev/api/contract-summa…", redirected: false, status: 200, ok: true, …}
+No summary data available for this document
+Query data cannot be undefined. Please make sure to return a value other than undefined from your query function. Affected query key: ["/api/contract-summary","1746704339890"]
+Fetching contract summary for document: 1746704339890
+Contract summary API response: 
+Response {type: "basic", url: "https://9a68511f-abe3-47a0-8901-a44e1325b1ba-00-3urcu453ova8a.janeway.replit.dev/api/contract-summa…", redirected: false, status: 200, ok: true, …}
+No summary data available for this document
+Query data cannot be undefined. Please make sure to return a value other than undefined from your query function. Affected query key: ["/api/contract-summary","1746704339890"]
+at t.value (https://9a68511f-abe3-47a0-8901-a44e1325b1ba-00-3urcu453ova8a.janeway.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://9a68511f-abe3-47a0-8901-a44e1325b1ba-00-3urcu453ova8a.janeway.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://9a68511f-abe3-47a0-8901-a44e1325b1ba-00-3urcu453ova8a.janeway.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://9a68511f-abe3-47a0-8901-a44e1325b1ba-00-3urcu453ova8a.janeway.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+Fetching contract summary for document: 1746704339890
+Contract summary API response: 
+Response {type: "basic", url: "https://9a68511f-abe3-47a0-8901-a44e1325b1ba-00-3urcu453ova8a.janeway.replit.dev/api/contract-summa…", redirected: false, status: 200, ok: true, …}
+No summary data available for this document
+Query data cannot be undefined. Please make sure to return a value other than undefined from your query function. Affected query key: ["/api/contract-summary","1746704339890"]
+Fetching contract summary for document: 1746704339890
+Contract summary API response: 
+Response {type: "basic", url: "https://9a68511f-abe3-47a0-8901-a44e1325b1ba-00-3urcu453ova8a.janeway.replit.dev/api/contract-summa…", redirected: false, status: 200, ok: true, …}
+No summary data available for this document
+Query data cannot be undefined. Please make sure to return a value other than undefined from your query function. Affected query key: ["/api/contract-summary","1746704339890"]
+Fetching contract summary for document: 1746704339890
+Contract summary API response: 
+Response {type: "basic", url: "https://9a68511f-abe3-47a0-8901-a44e1325b1ba-00-3urcu453ova8a.janeway.replit.dev/api/contract-summa…", redirected: false, status: 200, ok: true, …}
+No summary data available for this document
+Query data cannot be undefined. Please make sure to return a value other than undefined from your query function. Affected query key: ["/api/contract-summary","1746704339890"]

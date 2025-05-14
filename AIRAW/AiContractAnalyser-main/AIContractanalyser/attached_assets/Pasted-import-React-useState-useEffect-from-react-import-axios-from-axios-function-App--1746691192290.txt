@@ -1,0 +1,81 @@
+import React, { useState, useEffect } from "react";
+import axios from "axios";
+
+function App() {
+  const [file, setFile] = useState(null);
+  const [clauses, setClauses] = useState([]);
+  const [rules, setRules] = useState([]);
+
+  // Fetch compliance rules when component mounts
+  useEffect(() => {
+    fetchComplianceRules();
+  }, []);
+
+  const fetchComplianceRules = async () => {
+    const response = await axios.get("http://localhost:8000/compliance-rules");
+    setRules(response.data);
+  };
+
+  const uploadFile = async () => {
+    if (!file) return alert("Please upload a file.");
+
+    const formData = new FormData();
+    formData.append("file", file);
+
+    const response = await axios.post("http://localhost:8000/upload", formData);
+    setClauses(response.data.clauses);
+  };
+
+  const addRule = async () => {
+    const newRule = { keyword: "", allowed: true };
+    setRules([...rules, newRule]);
+    await axios.post("http://localhost:8000/add-rule", newRule);
+  };
+
+  const updateRule = async (index, key, value) => {
+    const updatedRules = [...rules];
+    updatedRules[index][key] = value;
+    setRules(updatedRules);
+    await axios.post("http://localhost:8000/update-rule", updatedRules);
+  };
+
+  return (
+    <div className="App">
+      <h1>AI Contract Management</h1>
+
+      <div>
+        <input type="file" onChange={(e) => setFile(e.target.files[0])} />
+        <button onClick={uploadFile}>Upload and Analyze</button>
+      </div>
+
+      <h3>Compliance Rules</h3>
+      {rules.map((rule, index) => (
+        <div key={index}>
+          <input
+            type="text"
+            value={rule.keyword}
+            onChange={(e) => updateRule(index, "keyword", e.target.value)}
+          />
+          <select
+            value={rule.allowed}
+            onChange={(e) => updateRule(index, "allowed", e.target.value === "true")}
+          >
+            <option value="true">Allowed</option>
+            <option value="false">Not Allowed</option>
+          </select>
+        </div>
+      ))}
+      <button onClick={addRule}>Add Rule</button>
+
+      <h3>Extracted Clauses</h3>
+      {clauses.map((clause, index) => (
+        <div key={index}>
+          <p>{clause.clause}</p>
+          <p>Risk Score: {clause.risk_score} | Compliance: {clause.compliance_status}</p>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+export default App;
