@@ -1,5 +1,5 @@
 [build]
-  base = "AIContractanalyser"
+  base = "AIContractanalyser/AIContractanalyser"
   command = "npm run build"
   publish = "dist/public"
 
